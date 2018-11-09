@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE accounting [
+   <!ELEMENT accounting (note*, (incoming | expense)*)>
+      <!ELEMENT note ANY>
+      <!ELEMENT incoming EMPTY>
+      <!ELEMENT expense EMPTY>
+      <!ELEMENT date (#PCDATA)>
+      <!ELEMENT amount (#PCDATA)>
+      <!ELEMENT concept (#PCDATA)>
+]> 
+ 
+<accounting>
+   <note>
+      <incoming></incoming>
+      <date>February 24th 2011</date>
+      <amount>1800,00 €</amount>
+      <concept>Salary</concept>
+    </note>
+    <note>
+      <expense></expense>
+      <date>February 28th 2011</date>
+      <amount>74,25 €</amount>
+      <concept>Energy bill</concept>
+    </note>
+</accounting> 

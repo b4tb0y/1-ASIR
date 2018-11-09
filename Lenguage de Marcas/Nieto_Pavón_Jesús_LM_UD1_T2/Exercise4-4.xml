@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resolutions [
+    <!ELEMENT resolutions (resolucion*)>
+      <!ELEMENT resolucion EMPTY>
+        <!ATTLIST resolucion name CDATA #REQUIRED>
+        <!ATTLIST resolucion height CDATA #REQUIRED>
+        <!ATTLIST resolucion weight CDATA #REQUIRED>
+]>
+<resolutions>
+    <resolucion name="VGA" height="480" weight="640" />
+    <resolucion name="XGA" height="1024" weight="768" />
+    <resolucion name="HD 1080" height="1920" weight="1080" />
+</resolutions>

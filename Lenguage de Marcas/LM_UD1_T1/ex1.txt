@@ -1,0 +1,2 @@
+The reason why these forms are used is simple. The "minify" is used to save space and place everything in a single line. The "beauty" is used to better visualize the content and make it more "attractive"
+

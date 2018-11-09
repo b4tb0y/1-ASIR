@@ -1,0 +1,34 @@
+class puerta:
+	altura=0
+	anchura=0
+	grosor=0
+	nbisagra=0
+	estado="cerrada"
+	color="rojo"
+	def __init__(self,a,b,g,c):
+		self.altura=int(raw_input("Puerta altura:"))
+		self.anchura=int(raw_input("Puerta anchura:"))
+		self.grosor=int(raw_input("Puerta grosor:"))
+		self.nbisagra=int(raw_input("N de bisagras:"))
+		self.color=raw_input("Enter color:")
+	def abrir(self):
+		self.estado="abierta"
+	def cerrar(self):
+		self.estado="cerrado"
+	def muestra(self):
+		print "ancho:",self.anchura
+		print "alto:",self.altura
+	 	print "grosor:",self.grosor
+	def --add--(self,puerta2):
+		self.altura=self.atura+puerta2.altura
+		self.anchura=self.anchura+puerta2.anchura
+		if(self.grosor<puerta2.grosor):
+			self.grosor=puerta2.grosor
+
+
+
+a=puerta()
+a.abrir()
+a.muestra()
+
+

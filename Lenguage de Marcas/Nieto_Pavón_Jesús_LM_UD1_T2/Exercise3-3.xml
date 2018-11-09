@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paintings [
+   <!ELEMENT paintings (painting*)>
+      <!ELEMENT painting EMPTY>
+      <!ATTLIST painting title CDATA #REQUIRED>
+      <!ATTLIST painting author CDATA #REQUIRED>
+  ]> 
+ 
+<paintings>
+   <painting title="Adan and Eva" author="Alberto Durero" />
+   <painting author="Lucas Cranach, the Old" title="Adan and Eva" />
+</paintings>

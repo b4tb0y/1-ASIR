@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE thingsToDo [
+    <!ELEMENT thingsToDo (thing*)>
+      <!ELEMENT thing (#PCDATA)>
+        <!ATTLIST thing date CDATA #REQUIRED>
+        <!ATTLIST thing subject CDATA #IMPLIED>
+        <!ATTLIST thing deadline CDATA #REQUIRED>
+]>
+<thingsToDo>
+    <thing date=" February 20th 2011" deadline="March 1st 2011">DTDs exercises</thing>
+    <thing date=" February 21st 2011" deadline="March 5th 2011">XSLT topic</thing>
+</thingsToDo>

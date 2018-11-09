@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shoppingList [
+   <!ELEMENT shoppingList (milk, bread)>
+      <!ELEMENT milk (#PCDATA)>
+      <!ELEMENT bread (#PCDATA)>
+         <!ATTLIST milk amount CDATA #REQUIRED>
+         <!ATTLIST bread amount CDATA #REQUIRED>
+]> 
+ 
+<shoppingList>
+   <milk amount="12 liters" ></milk>
+   <bread amount="3 pieces" />
+</shoppingList>

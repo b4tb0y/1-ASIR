@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE libro [
+    <!ELEMENT libro (autor+, titulo, isbn?, edicion*, portada?)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT isbn (#PCDATA)>
+         <!ELEMENT edicion (#PCDATA)>
+        <!ELEMENT portada EMPTY>
+  ] >
+
+<libro> 
+   <autor>Julio Verne</autor>
+    <autor>Verne Julio</autor>
+   <titulo> El viaje al centro de la Tierra</titulo>
+   <isbn>64687</isbn>
+   <edicion>De Bolsillo</edicion>
+   <edicion>Electronica</edicion>
+    <edicion>Fisica</edicion>
+    <edicion>Mini</edicion>
+</libro>
+

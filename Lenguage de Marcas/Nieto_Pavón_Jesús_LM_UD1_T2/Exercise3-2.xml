@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie [
+   <!ELEMENT movie EMPTY>
+      <!ATTLIST movie title CDATA #IMPLIED>
+      <!ATTLIST movie genero CDATA #IMPLIED>
+]> 
+ 
+<movie title="Stagecoach" genero="western" />

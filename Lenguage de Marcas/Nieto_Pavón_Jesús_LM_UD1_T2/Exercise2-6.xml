@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE countries [
+    <!ELEMENT countries (country*)>
+      <!ELEMENT country (name, europeanUnion, nato)>
+      <!ELEMENT name EMPTY>
+      <!ELEMENT europeanUnion EMPTY>
+      <!ELEMENT nato EMPTY>
+]> 
+ 
+<countries>
+   <country>
+        <name></name>
+        <europeanUnion></europeanUnion>
+        <nato></nato>
+    </country>
+    <country>
+        <name></name>
+        <europeanUnion></europeanUnion>
+        <nato></nato>
+    </country>
+    <country>
+        <name></name>
+        <europeanUnion></europeanUnion>
+        <nato></nato>
+    </country>
+</countries>

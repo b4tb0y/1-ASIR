@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typevehicles>
+	<land>
+		<vehicle>bike</vehicle>
+		<vehicle>car</vehicle>
+		<vehicle>tractor</vehicle>
+	</land>
+	<aquatic>
+		<vehicle>canoe</vehicle>
+	</aquatic>
+	<air>
+		<vehicle>plane</vehicle>
+		<vehicle>helicopter</vehicle>
+	</air>
+</typevehicles>
